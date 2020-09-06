@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21146" started-at="2020-09-06T13:56:08 EDT" finished-at="2020-09-06T13:56:29 EDT">
+    <groups>
+      <group name="smoke">
+        <method signature="LoginTest.emptyPassword()[pri:0, instance:com.hrms.testcases.LoginTest@1f7030a6]" name="emptyPassword" class="com.hrms.testcases.LoginTest"/>
+        <method signature="LoginTest.emptyUsername()[pri:0, instance:com.hrms.testcases.LoginTest@1f7030a6]" name="emptyUsername" class="com.hrms.testcases.LoginTest"/>
+        <method signature="LoginTest.invalidPassword()[pri:0, instance:com.hrms.testcases.LoginTest@1f7030a6]" name="invalidPassword" class="com.hrms.testcases.LoginTest"/>
+        <method signature="LoginTest.validLogin()[pri:0, instance:com.hrms.testcases.LoginTest@1f7030a6]" name="validLogin" class="com.hrms.testcases.LoginTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Default test" duration-ms="21146" started-at="2020-09-06T13:56:08 EDT" finished-at="2020-09-06T13:56:29 EDT">
+      <class name="com.hrms.testcases.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.LoginTest@1f7030a6]" name="setUp" is-config="true" duration-ms="3838" started-at="2020-09-06T13:56:08 EDT" finished-at="2020-09-06T13:56:12 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="emptyPassword()[pri:0, instance:com.hrms.testcases.LoginTest@1f7030a6]" name="emptyPassword" duration-ms="305" started-at="2020-09-06T13:56:12 EDT" finished-at="2020-09-06T13:56:12 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.LoginTest@1f7030a6]" name="tearDown" is-config="true" duration-ms="86" started-at="2020-09-06T13:56:12 EDT" finished-at="2020-09-06T13:56:12 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.LoginTest@1f7030a6]" name="setUp" is-config="true" duration-ms="2922" started-at="2020-09-06T13:56:12 EDT" finished-at="2020-09-06T13:56:15 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="emptyUsername()[pri:0, instance:com.hrms.testcases.LoginTest@1f7030a6]" name="emptyUsername" duration-ms="253" started-at="2020-09-06T13:56:15 EDT" finished-at="2020-09-06T13:56:15 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyUsername -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.LoginTest@1f7030a6]" name="tearDown" is-config="true" duration-ms="83" started-at="2020-09-06T13:56:15 EDT" finished-at="2020-09-06T13:56:15 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.LoginTest@1f7030a6]" name="setUp" is-config="true" duration-ms="3116" started-at="2020-09-06T13:56:15 EDT" finished-at="2020-09-06T13:56:18 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invalidPassword()[pri:0, instance:com.hrms.testcases.LoginTest@1f7030a6]" name="invalidPassword" duration-ms="1383" started-at="2020-09-06T13:56:18 EDT" finished-at="2020-09-06T13:56:20 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.LoginTest@1f7030a6]" name="tearDown" is-config="true" duration-ms="88" started-at="2020-09-06T13:56:20 EDT" finished-at="2020-09-06T13:56:20 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.LoginTest@1f7030a6]" name="setUp" is-config="true" duration-ms="4832" started-at="2020-09-06T13:56:20 EDT" finished-at="2020-09-06T13:56:25 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:com.hrms.testcases.LoginTest@1f7030a6]" name="validLogin" duration-ms="4114" started-at="2020-09-06T13:56:25 EDT" finished-at="2020-09-06T13:56:29 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.LoginTest@1f7030a6]" name="tearDown" is-config="true" duration-ms="94" started-at="2020-09-06T13:56:29 EDT" finished-at="2020-09-06T13:56:29 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hrms.testcases.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
