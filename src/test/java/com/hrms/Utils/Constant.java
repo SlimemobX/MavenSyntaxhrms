@@ -15,5 +15,7 @@ public class Constant {
 	public static final int IMPLICIT_WAIT_TIME = 10;
 	
 	public static final int EXPLICIT_WAIT_TIME = 20;
+	
+	public static final String SCREENSHOT_FILEPATH= System.getProperty("user.dir")+ "/target/screenshots/";
 
 }

@@ -1,6 +1,12 @@
 package com.hrms.Utils;
 
+import java.io.File;
+import java.io.IOException;
+
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -77,6 +83,20 @@ public class CommonMethods extends PageInitializer{
 	public static void click(WebElement element) {
 		waitForClickAbility(element);
 		element.click();
+	}
+	
+	/**
+	 * Method that takes screenshot and stored with name and location .png extension
+	 * @param fileName
+	 */
+	public static void takeScreen(String fileName) {
+		TakesScreenshot ts = (TakesScreenshot)driver;
+		File src = ts.getScreenshotAs(OutputType.FILE);
+		try {
+			FileUtils.copyFile(src, new File(Constant.SCREENSHOT_FILEPATH + fileName + ".png"));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 	
 	
