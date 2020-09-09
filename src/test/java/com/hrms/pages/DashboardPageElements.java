@@ -12,28 +12,28 @@ public class DashboardPageElements extends BaseClass{
 	public WebElement welcomeAdmin;
 	
 	@FindBy(id = "menu_admin_viewAdminModule")
-	WebElement adminLinkBtn;
+	public WebElement adminLinkBtn;
 	
 	@FindBy(id = "menu_pim_viewPimModule")
-	WebElement pimLinkBtn;
+	public WebElement pimLinkBtn;
 	
 	@FindBy(id = "menu_leave_viewLeaveModule")
-	WebElement leaveLinkBtn;
+	public WebElement leaveLinkBtn;
 	
 	@FindBy(id = "menu_time_viewTimeModule")
-	WebElement timeLinkBtn;
+	public WebElement timeLinkBtn;
 	
 	@FindBy(id = "menu_recruitment_viewRecruitmentModule")
-	WebElement recruitmentLinkBtn;
+	public WebElement recruitmentLinkBtn;
 	
 	@FindBy (id = "menu__Performance")
-	WebElement performanceLinkBtn;
+	public WebElement performanceLinkBtn;
 	
 	@FindBy(id = "menu_dashboard_index")
-	WebElement dashboardLinkBtn;
+	public WebElement dashboardLinkBtn;
 	
 	@FindBy(id = "menu_directory_viewDirectory")
-	WebElement directoryLinkBtn;
+	public WebElement directoryLinkBtn;
 	
 	
 	public DashboardPageElements() {
